@@ -13,7 +13,7 @@ class Attributes:
 	    discord  = "Tenki#2344"
 	    tiktok   = "nowayarte"
 	    
-	    return discord, telegram, proton
+	    return discord, tiktok
 
 	def life(self):
 		langs         = ['Italian', 'Japanese', 'Korean', 'Spanish', 'English']
