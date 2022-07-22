@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 100vh;
+}
+.video-background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+.video-background
+{
+    width: auto;
+    height: auto;
+}
+}
+.welcome-msg
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    top: 150px;
+}
+.welcome-msg h1
+{
+    font-size: 80px;
+    font-weight: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.btn
+{
+    font-size: 18px;
+    color: #fff;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.btn-discord
+{
+    background: black;
+}
+.btn-tiktok
+{
+    background: black;
+}
